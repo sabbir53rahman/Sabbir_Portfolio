@@ -38,7 +38,7 @@ export function Banner() {
 
       {/* Main Banner Content */}
       <div className="text-4xl text-center mx-auto font-normal text-white dark:text-white">
-        Hi! I'm Sabbir Hossain
+        Hi! I'm Sabbir Hossain {' '}
         <FlipWords className={`text-center`} words={words} /> <br />
         from Bangladesh.
       </div>
