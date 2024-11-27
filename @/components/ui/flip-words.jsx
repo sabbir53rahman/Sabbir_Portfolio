@@ -43,7 +43,7 @@ export const FlipWords = ({
           opacity: 0,
           y: -40,
           x: 40,
-          filter: "blur(8px)",
+          filter: "blur(5px)",
           scale: 2,
           position: "absolute",
         }}
