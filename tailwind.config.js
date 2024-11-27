@@ -29,6 +29,14 @@ module.exports = {
 
 
       keyframes: {
+        border: {
+          "0%": { "border-color": "rgba(56, 189, 248, 1)" }, // Light Blue
+          "25%": { "border-color": "rgba(134, 63, 248, 1)" }, // Purple
+          "50%": { "border-color": "rgba(255, 20, 147, 1)" }, // Deep Pink
+          "75%": { "border-color": "rgba(255, 159, 28, 1)" }, // Amber
+          "100%": { "border-color": "rgba(56, 189, 248, 1)" }, // Light Blue
+        },
+        
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -53,6 +61,7 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "spotlight": "spotlight 2s ease .75s 1 forwards",
+        "border": "border 3s linear infinite",
       },
     },
   },

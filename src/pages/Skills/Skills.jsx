@@ -14,7 +14,9 @@ export function Skills() {
   return (
     <>
       {/* Heading */}
-      <h2 className="text-4xl font-semibold text-center text-white mb-8">My Skills</h2>
+      <h2 className="text-5xl md:py-[40px] py-[30px] lg:py-[60px] text-center md:text-6xl font-extrabold tracking-tight text-white">
+        My Skills
+      </h2>
       <BentoGrid className="container mx-auto">
         {items.map((item, i) => (
           <BentoGridItem

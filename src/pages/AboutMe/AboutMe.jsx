@@ -50,7 +50,7 @@ export function AboutMe() {
   return (
     <>
       {/* Heading */}
-      <h2 className="text-4xl font-semibold text-center text-white pt-[100px] mb-8">
+      <h2 className="text-5xl md:py-[40px] py-[30px] lg:py-[60px] text-center md:text-6xl font-extrabold tracking-tight text-white">
         About Me
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative z-10 py-10 max-w-7xl mx-auto">
